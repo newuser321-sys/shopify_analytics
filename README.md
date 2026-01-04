@@ -45,6 +45,7 @@ Note: the first interaction with a new store id, will result in a response that 
 
 To run the servers, open two terminals in this directory and run these commands:
 >> uvicorn main:app --app-dir gateway --reload  --host 0.0.0.0 --port 8000
+
 >> uvicorn main:app --app-dir backend --reload  --host 0.0.0.0 --port 9000
 
 After this, simply use the interface to supply question and store ID.
