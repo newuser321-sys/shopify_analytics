@@ -4,7 +4,6 @@ import requests
 from google import genai
 
 # Initialize client with API key (auto‑uses env var if set)
-API_KEY = "AIzaSyAMjYaBq31iJJ2N5JyB0lyPJIenBNxsh64"
 client = genai.Client(api_key=API_KEY)
 
 def ask_google_llm(prompt: str) -> str:

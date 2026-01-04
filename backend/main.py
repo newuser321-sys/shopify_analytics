@@ -633,7 +633,6 @@ def run_sql(sql: str):
 # Google LLM
 API_KEY = os.getenv("GOOGLE_API_KEY")
 
-# API_KEY = "AIzaSyBUGauWHHurAEnbrK6lZWb2oX8rRTfj2Vs"
 try:
     client = genai.Client(api_key=API_KEY)
 except:
