@@ -1,0 +1,23 @@
+Request:
+
+POST /api/v1/ask
+Content-Type: application/json
+
+{
+  "store_id": "teststoremini-2.myshopify.com",
+  "question": "How many snowboards do I have?"
+}
+
+Response (Authenticated):
+
+{
+  "Response": "You have 1300 snowboards."
+}
+
+
+Response (Authentication required):
+
+   {"detail":"Please authenticate via this link:
+http://localhost:8000/auth/install?shop=teststoremini-2.myshopify.com"}
+}
+
